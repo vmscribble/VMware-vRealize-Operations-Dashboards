@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="storage|totalReadLatency_average" label="ReadL atency" unit="ms" yellow="20" orange="40" red="60"/>
+            <Metric attrkey="storage|totalWriteLatency_average" label="Write Latency" unit="ms" yellow="20" orange="40" red="60"/>
+            <Metric attrkey="virtualDisk:Aggregate of all instances|commandsAveraged_average" label="Commands" unit="" yellow="" orange="" red=""/>
+            <Metric attrkey="virtualDisk|read_average" label="Read Rate" unit="KBps" yellow="" orange="" red=""/>
+            <Metric attrkey="virtualDisk|write_average" label="Write Rate" unit="KBps" yellow="" orange="" red=""/>
+            <Metric attrkey="summary|number_datastore" label="Datastores" unit="" yellow="" orange="3" red=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
