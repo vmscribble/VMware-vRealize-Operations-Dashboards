@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="mem|workload" label="Workload" unit="%" yellow="95" orange="" red="97"/>
+            <Metric attrkey="mem|host_contentionPct" label="Contention" unit="%" yellow="5" orange="7" red="10"/>
+            <Metric attrkey="mem|latency_average" label="Latency" unit="%" yellow="2" orange="4" red="6"/>
+            <Metric attrkey="mem|balloonPct" label="Balloon" unit="%" yellow="5" orange="10" red="15"/>
+            <Metric attrkey="mem|actual.capacity" label="RAM" unit="KB" yellow="" orange="" red=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
