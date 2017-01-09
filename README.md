@@ -10,3 +10,6 @@ Please contact jshely@vmware.com to provide feedback
 Looking forward to building a great repository!
 
 PS-this is work in progress.  Thanks for your understanding.
+///
+
+https://vmscribble.com/vrops/vrops-6-create-dashboard-custom-views-text-scoreboards/
