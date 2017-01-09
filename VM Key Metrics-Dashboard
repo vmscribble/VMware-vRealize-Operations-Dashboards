@@ -1,0 +1,451 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1483911007717,
+      "description": "https://vmscribble.com  1/8/17",
+      "disabled": false,
+      "id": "254dfd31-7d9f-4316-bbd8-71ca4df4bc71",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "vmscribble.com/VM Key Metrics",
+      "namePath": "vmscribble.com",
+      "rank": 10,
+      "shared": false,
+      "temporary": false,
+      "userId": "65a594e2-c8e5-43f5-8953-24983d0326dd",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "337db541-51d9-4057-8d77-78a1b2b4b23e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "2c78be02-eaa6-4939-a8dc-aa17ddb8a6be"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "dc045e60-f380-47c4-9d35-9c40764bb71e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "da9e1b84-af88-46d3-8aa5-77607c50600a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "a9d6f7fa-bb06-4787-b956-60882e2b4ea2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "7796bdb5-9fb8-4b8f-8330-0428dc31f02f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "6ba31a20-3af6-46c4-a9a5-2e5f54a8552c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "d61b7349-459d-49d9-a1ae-39de22270a67"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "fa8a4923-5d34-4672-bb7b-dd631fe1c873"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "8da45fa1-4551-4b8b-bceb-83c85995b919"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "widgetIdReceiver": "5da1c782-8933-436f-a82c-adb0f6d3fb87"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "locationFile": "Virtual Machine Key Metrics",
+               "locationUrl": "",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "Title",
+               "viewModeHTML": true
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 98,
+            "id": "1b0e9d3c-da13-4f32-96be-994def1e3c6f",
+            "title": "Title",
+            "type": "TextDisplay"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 7,
+               "w": 2,
+               "x": 5,
+               "y": 1
+            },
+            "height": 242,
+            "id": "337db541-51d9-4057-8d77-78a1b2b4b23e",
+            "title": "Reclaimable Capacity",
+            "type": "IntSummaryWaste"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "002006VMWAREVirtualMachine"
+                  },
+                  {
+                     "boxLabel": "ESXI Host",
+                     "metricKey": "summary|parentHost",
+                     "metricName": "Summary|Parent Host",
+                     "resourceKindId": "002006VMWAREVirtualMachine"
+                  },
+                  {
+                     "boxLabel": "Cluster",
+                     "metricKey": "summary|parentCluster",
+                     "metricName": "Summary|Parent Cluster",
+                     "resourceKindId": "002006VMWAREVirtualMachine"
+                  },
+                  {
+                     "boxLabel": "VM Tools Running",
+                     "metricKey": "summary|guest|toolsRunningStatus",
+                     "metricName": "Summary|Guest Operating System|Tools Running Status",
+                     "resourceKindId": "002006VMWAREVirtualMachine"
+                  }
+               ],
+               "mode": {"mode": 0},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Search for your VM"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 4
+            },
+            "height": 134,
+            "id": "6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+            "states": [{
+               "key": "permResGrid_widget_254dfd31-7d9f-4316-bbd8-71ca4df4bc71_6ae1d9c9-aeb7-4823-b417-dfca3fc8f0c2",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A175%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A234%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Search for your VM",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "VM - CPU",
+               "roundDecimals": 0,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VM CPU Current",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 1,
+               "y": 8
+            },
+            "height": 134,
+            "id": "2c78be02-eaa6-4939-a8dc-aa17ddb8a6be",
+            "title": "VM CPU Current",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "VM - MEM",
+               "roundDecimals": 0,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VM Memory Current",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 4,
+               "y": 8
+            },
+            "height": 134,
+            "id": "dc045e60-f380-47c4-9d35-9c40764bb71e",
+            "title": "VM Memory Current",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM CPU - 24 hours - Click on each metric to hide/unhide",
+               "viewDefinitionId": "e6a6da0c-e0d4-45d8-ac3e-4c1260353c9b"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 3,
+               "x": 1,
+               "y": 12
+            },
+            "height": 314,
+            "id": "da9e1b84-af88-46d3-8aa5-77607c50600a",
+            "title": "VM CPU - 24 hours - Click on each metric to hide/unhide",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM Memory - 24 hours - Click on each metric to hide/unhide",
+               "viewDefinitionId": "8bf54f71-dd9c-4d12-baed-8114907d2fb1"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 3,
+               "x": 4,
+               "y": 12
+            },
+            "height": 314,
+            "id": "a9d6f7fa-bb06-4787-b956-60882e2b4ea2",
+            "title": "VM Memory - 24 hours - Click on each metric to hide/unhide",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "VM - DISK",
+               "roundDecimals": 2,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VM Disk(s) Current",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 21
+            },
+            "height": 134,
+            "id": "7796bdb5-9fb8-4b8f-8330-0428dc31f02f",
+            "title": "VM Disk(s) Current",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM Disk Latency- 24 hours - Click on each metric to hide/unhide",
+               "viewDefinitionId": "cf66a89f-40fe-4422-b688-76280d3b2c76"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 3,
+               "x": 1,
+               "y": 25
+            },
+            "height": 314,
+            "id": "6ba31a20-3af6-46c4-a9a5-2e5f54a8552c",
+            "title": "VM Disk Latency- 24 hours - Click on each metric to hide/unhide",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM Disk - Aggregate of all instances - Commands / Read+Write Rate 24 hours",
+               "viewDefinitionId": "b25d3c76-b8ab-47ce-9eae-93d677670382"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 3,
+               "x": 4,
+               "y": 25
+            },
+            "height": 314,
+            "id": "d61b7349-459d-49d9-a1ae-39de22270a67",
+            "title": "VM Disk - Aggregate of all instances - Commands / Read+Write Rate 24 hours",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "VM - NET",
+               "roundDecimals": 0,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VM Network Current",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 34
+            },
+            "height": 134,
+            "id": "fa8a4923-5d34-4672-bb7b-dd631fe1c873",
+            "title": "VM Network Current",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM Network - Workload Dropped Packets - 24 hours",
+               "viewDefinitionId": "0814f5a0-4338-4051-ad48-cbde33acbe51"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 38
+            },
+            "height": 278,
+            "id": "8da45fa1-4551-4b8b-bceb-83c85995b919",
+            "title": "VM Network - Workload Dropped Packets - 24 hours",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM Network Packet Rate - 24 hours",
+               "viewDefinitionId": "0515d664-fa87-428c-89bf-3ead7f25a10d"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 38
+            },
+            "height": 278,
+            "id": "5da1c782-8933-436f-a82c-adb0f6d3fb87",
+            "title": "VM Network Packet Rate - 24 hours",
+            "type": "View"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "VMWARE",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "VirtualMachine"
+   }]},
+   "uuid": "a9d5fa5c-8590-4f78-a280-ba6a6db9506d"
+}
