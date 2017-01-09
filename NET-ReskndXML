@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="net:4000|received|workload" label="Received Workload" unit="%" yellow="" orange="90" red="95"/>
+            <Metric attrkey="net:4000|transmitted|workload" label="Transmitted Workload" unit="%" yellow="" orange="90" red="95"/>
+            <Metric attrkey="net:4000|droppedRx_summation" label="Received Packets" unit="Dropped" yellow="" orange="" red=""/>
+            <Metric attrkey="net:4000|droppedTx_summation" label="Transmitted Packets" unit="Dropped" yellow="" orange="" red=""/>
+            <Metric attrkey="net:4000|packetsRxPerSec" label="Received Packets" unit="Second" yellow="" orange="" red=""/>
+            <Metric attrkey="net:4000|packetsTxPerSec" label="Transmitted Packets" unit="Second" yellow="" orange="" red=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
