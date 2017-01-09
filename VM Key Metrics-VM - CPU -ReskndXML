@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="cpu|workload" label="Workload" unit="%" yellow="95" orange="" red="97"/>
+            <Metric attrkey="cpu|capacity_contentionPct" label="Contention" unit="%" yellow="7.5" orange="15" red="20"/>
+            <Metric attrkey="cpu|readyPct" label="Ready" unit="%" yellow="5" orange="7" red="10"/>
+            <Metric attrkey="cpu|costopPct" label="Co-stop" unit="%" yellow="3" orange="4" red="5"/>
+            <Metric attrkey="cpu|corecount_provisioned" label="vCPU" unit="Cores" yellow="" orange="8" red="16"/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
